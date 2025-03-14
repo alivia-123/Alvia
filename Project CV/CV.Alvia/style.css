@@ -1,0 +1,81 @@
+/* Reset default margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif; /* Ubah ke Times New Roman */
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Container utama */
+.container {
+    width: 60%;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Header CV */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.header p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Setiap section (Profil, Pendidikan, Pengalaman, Keterampilan) */
+.section {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Paragraf */
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* List untuk pengalaman & keterampilan */
+ul {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Strong (untuk nama institusi & perusahaan) */
+strong {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Emphasize (untuk posisi & tanggal) */
+em {
+    font-size: 13px;
+    color: #666;
+}
